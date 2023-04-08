@@ -5,8 +5,11 @@
   |============================
 */
 @import url('./reset.css');
+@import url('../../node_modules/swiper/swiper-bundle.min.css');
+@import url('./common.css');
 @import url('./header.css');
 @import url('./section/section-hero.css');
+@import url('./section/section-reviews.css');
 
 
 :root {
@@ -23,4 +26,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --color-black: #000000;
+
+  --bgcolor: #000000;
 }
